@@ -101,7 +101,7 @@ def analyze_ip(ip_addresses):
     # API request headers
     api_req_headers = {
         'Accept': 'application/json',
-        'Key': '0d6cbe9900be1f67d280837fd5d455928634d500f5de5387e9ac28e6b675ee2b11259f6579e67060'
+        'Key': '' # Insert API Key here. I removed it since this is a public repository.
     }
     
     # Sending API requests for each IP address and getting a response
@@ -215,4 +215,5 @@ if __name__ == "__main__":
     # Calling function that will now fill the table with results and keep updating it every 1 minute
     create_and_update_table()
     
+
     root.mainloop()
